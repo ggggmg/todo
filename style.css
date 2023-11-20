@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('https://img1.akspic.ru/attachments/crops/4/0/0/5/5/155004/155004-minimalizm-ekoregion-fioletovyj-art-purpurnyj_cvet-2560x1440.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.main__input {
+    height: 40px;
+    width: 40%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px #161616;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 22px;
+    
+}
+button {
+  /* font-size: 16px; */
+  padding: 10px 3px;
+  background-color: rgb(255, 255, 255);
+  color: #1f1f1f;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #161616;
+}
+
+
+button:hover {
+  transform: scale(0.9); 
+  background-color: rgb(255, 168, 230);
+  cursor: grab;
+
+}
+
+
+.output {
+    padding: 20px 0;
+}
+
+.block {
+    padding: 20px;
+    border: 1px solid rgb(32, 18, 110);
+    margin: 30px 0;
+    box-shadow: 5px 5px 10px #161616;
+    border-radius: 15px;
+    /* border-style: solid; Тип бордера (solid, dashed, dotted, double, etc.) */
+    backdrop-filter: blur(1px);
+}
+.block h3 {
+    color: rgb(41, 41, 41);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.block p{
+    color: rgb(82, 81, 81);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.block span{
+    color: rgb(0, 0, 0);
+    margin: 17px;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.countWrapper{
+    color: #000000;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    direction: rtl;
+    margin-top: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+
+.output2{
+    direction: rtl;
+}
+
